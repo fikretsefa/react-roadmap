@@ -1,36 +1,44 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🎯 useReducer Playground — React Examples for Practical Reference Usage
 
-## Getting Started
+This React project demonstrates practical implementations of the `useReducer` hook through real-world examples like form handling, todo management, and state management patterns.
 
-First, run the development server:
+> Built as a hands-on learning tool for better understanding `useReducer`, state management, and complex state updates in React applications.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 📂 Features Breakdown
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Each component demonstrates different aspects of `useReducer` implementation and state management patterns.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+| Component | Description |
+|--------|-------------|
+| **Form Component** | Demonstrates basic form state management using `useReducer` with name and age fields. Shows how to handle input changes and state updates through actions. |
+| **Todo Component** | A full-featured todo application showcasing complex state management with actions for adding, editing, deleting, and toggling todos. |
+| **Counter Component** | Simple counter implementation showing basic state updates and action handling with `useReducer`. |
 
-## Learn More
+## 💡 Key Concepts
 
-To learn more about Next.js, take a look at the following resources:
+- **State Management**: Using `useReducer` for predictable state updates
+- **Action Types**: Type-safe action definitions with TypeScript
+- **Reducer Functions**: Pure functions for state transformations
+- **Complex State Updates**: Handling nested state updates and multiple actions
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🛠️ Implementation Details
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### Form Component
+- Manages form state with name and age fields
+- Demonstrates action handling for input changes
+- Shows how to increment age with a button click
 
-## Deploy on Vercel
+### Todo Component
+- Full CRUD operations for todos
+- Complex state updates with multiple actions
+- Edit mode handling
+- Toggle completion status
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Counter Component
+- Basic increment/decrement functionality
+- Simple state updates
+- Action type definitions
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
